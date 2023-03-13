@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  font-family: sans-serif;
+}
+
+a.active {
+  background: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+}
+
+a.inactive {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.hero1 {
+  background: -webkit-linear-gradient(#8694df, #b51e7a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
